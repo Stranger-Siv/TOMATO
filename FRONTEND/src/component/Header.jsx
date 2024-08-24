@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const Header = () => {
     return (
         <header className="bg-[url('/header_img.png')] bg-cover bg-center lg:h-[550px] lg:pt-28 mx-4 sm:mx-8 sm:h-[350px] lg:mx-32 rounded-lg my-auto flex items-cente sm:-mt-10">
-            <div className='px-6 sm:px-8 md:px-12 lg:px-28 rounded-lg pt-12 sm:pt-16 md:pt-16 lg:pt-20'>
+            <div className='px-6 sm:px-8 md:px-12 lg:px-28 rounded-lg pt-12 sm:pt-16 md:pt-16 lg:pt-20 '>
                 <motion.h1 
                     className='font-medium text-white text-3xl sm:text-3xl md:text-5xl lg:text-7xl leading-tight'
                     initial={{ opacity: 0, y: 20 }}

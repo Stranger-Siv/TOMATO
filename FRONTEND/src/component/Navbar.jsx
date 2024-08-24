@@ -29,7 +29,7 @@ const Navbar = () => {
         <>
             <nav className="bg-white shadow-md px-4 py-3 h-[70px] flex justify-between items-center mb-20 relative">
                 <Link to="/" aria-label="Homepage">
-                    <img src={assets.logo} alt="Logo" className="h-12 sm:w-[140px]" />
+                    <img src={assets.logo} alt="Logo" className="h-12 sm:w-[130px] sm:h-[35px]" />
                 </Link>
 
                 <div className="flex items-center space-x-4">
