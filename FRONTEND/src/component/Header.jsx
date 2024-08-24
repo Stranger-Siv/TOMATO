@@ -26,7 +26,7 @@ const Header = () => {
                 </motion.p>
 
                 <motion.button 
-                    className='text-slate-700 bg-white border font-medium rounded-full text-xs sm:text-sm px-4 sm:px-5 mt-4 sm:mt-5 py-2'
+                    className='text-slate-700 bg-white border font-medium rounded-full text-xs sm:text-sm sm:block px-4 sm:px-5 mt-4 sm:mt-5 py-2'
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5, delay: 1 }}
